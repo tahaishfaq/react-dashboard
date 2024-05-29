@@ -72,7 +72,7 @@ const OrdersAnalytics = () => {
 
     return (
         <div className="w-2/3 px-4 py-4 mt-4 bg-white rounded-xl font-poppins">
-            <h2 className="text-2xl font-semibold mb-4">Recent Orders</h2>
+            <h2 className="text-2xl font-semibold mb-4">Orders Analytics</h2>
             <Line data={data} options={options} />
         </div>
 
